@@ -1,0 +1,33 @@
+#loginContainer {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#loginForm {
+    text-align: center;
+    display: block;
+    outline: auto;
+    padding: 8px;
+}
+
+#loginButton {
+    margin-top: 3%;
+}
+
+#appLogo {
+    font-size: 40px;
+    margin-bottom: 3%;
+    background-color: skyblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    font-weight: 600;
+    color: white;
+}
+
+#enter {
+    margin-bottom: 5%;
+}

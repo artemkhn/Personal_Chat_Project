@@ -1,0 +1,25 @@
+.dashboardContainer {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.addContactBox {
+    display: block;
+    background-color: rgb(103, 176, 205);
+    padding: 5%;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#findUser {
+    margin-top: 7px;
+}
+
+#dashboardLogo {
+    color: white;
+    padding-bottom: 8px;
+}
