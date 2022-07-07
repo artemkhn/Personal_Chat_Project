@@ -4,7 +4,7 @@ import io from 'socket.io-client'
 import Chat from './Chat'
 
 export default function Dashboard({ username }) {
-  const socket = io.connect("http://localhost:3001");
+  const socket = io.connect("https://quiet-inlet-36677.herokuapp.com/");
   const [room, setRoom] = useState("");
   const joinRoom = () => {
     if(username !== "" && room !== "") {
