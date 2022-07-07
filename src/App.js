@@ -7,7 +7,7 @@ import Dashboard from './js/Dashboard'
 import useLocalStorage from './js/Storage'
 
 
-const socket = io.connect("http://localhost:3001");
+const socket = io.connect("https://quiet-inlet-36677.herokuapp.com/");
 function App() {
   const [username, setUsername] = useLocalStorage("username");
   var path;
