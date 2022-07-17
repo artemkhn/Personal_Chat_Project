@@ -18,18 +18,6 @@ export default function Chat({socket, username, room, isOpen, onClose}) {
         }
     }
 
-    const CHAT_STYLES = {
-        position: 'fixed',
-        top: '50%',
-        left: '50%',
-        transform: 'translate(-50%, -50%)',
-        backgroundColor: '#FFFAFA',
-        padding: '20px',
-        width: '30vw',
-        height: '60vh',
-        borderRadius: '2%',
-        zIndex: 1000
-    }
 
     const OVERLAY = {
         position: 'fixed',
@@ -54,7 +42,7 @@ export default function Chat({socket, username, room, isOpen, onClose}) {
   return ReactDom.createPortal(
     <>
     <div style={OVERLAY} />
-    <div style={CHAT_STYLES}>
+    <div id='overlay'>
         <div id="chatContainer">
             <button onClick={onClose}>Close</button>
             <div className="chatHeader">
